@@ -1,0 +1,4 @@
+ let encuestados = [];
+ for() {
+
+ }

@@ -4,8 +4,8 @@ let mayores = 0;
 let adultosmayores = 0;
 let sumatotal = 0;
 for(let i=1;i<=10;i++){
-    let edad = parseInt(prompt("porfavor, ingrese su edad"));
-    while(edad <1||edad> 120 || isNaN(edad)){
+    let edad = parseInt(prompt("porfavor, ingrese su edad"))
+    while(edad <1||edad>120){
         alert("dato incorrecto, solo ingrese numeros del 1 al 120")
         edad = parseInt(prompt("intente de nuevo"))
     }
